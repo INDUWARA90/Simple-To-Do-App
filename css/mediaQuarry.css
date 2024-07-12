@@ -1,0 +1,38 @@
+
+
+
+@media (max-width: 576px) { 
+
+    .container{
+        width: 400px;
+    }
+    .container-to-do-list input{
+        width: 100px;
+    }
+}
+
+@media (max-width: 476px) { 
+
+    .container{
+        width: 300px;
+    }
+    .container-to-do-list input{
+        width: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+ 
+    .container{
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 290px) {
+  
+    .container{
+        width: 200px;
+    }
+
+}
