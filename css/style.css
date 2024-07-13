@@ -17,7 +17,7 @@
 }
 .container{
     background-color: var(--conatiner-color--);
-    width: 600px;
+    width: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,6 +48,7 @@
 }
 .container-buttons input{
     flex: 1;
+    font-size: small;
     height: 45px;
     border-radius: 10px;
     background-color:var(--background-color--);
@@ -73,9 +74,9 @@
     color: #c5c6c7;
     font-weight: 600;
     list-style: none;
-    font-size: 20px;
+    font-size: small;
     user-select: none;
-    padding: 12px 18px 12px 1px;
+    padding: 19px 18px 12px 1px;
     cursor: pointer;
     position: relative;
 
@@ -111,7 +112,7 @@
 .ul-list-iteams li span{
     position: absolute;
     right: 0;
-    top: 9px;
+    top: 10px;
     width: 40px;
     height: 40px;
     font-size: 22px;

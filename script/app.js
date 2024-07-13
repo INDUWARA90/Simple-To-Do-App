@@ -1,6 +1,6 @@
 const input=document.getElementById('input-box');
 const listContainer=document.querySelector('.ul-list-iteams');
-
+//================add function======================
 function AddToDO() {
     
     if (input.value==='') {
@@ -21,7 +21,7 @@ function AddToDO() {
 
     
 }
-
+//================add EventListener to li ======================
 listContainer.addEventListener("click",function(E){
     if (E.target.tagName==="LI") {
             E.target.classList.toggle("checked");
@@ -35,7 +35,7 @@ listContainer.addEventListener("click",function(E){
 },false)
 
 
-
+//================add Local Storage======================
 function SaveLocalStorage() {
     localStorage.setItem("appsz",listContainer.innerHTML);
 }
