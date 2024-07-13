@@ -7,24 +7,32 @@
         width: 400px;
     }
     .container-to-do-list input{
-        width: 100px;
+        width: 200px;
+        font-size: x-small;
     }
+    
 }
 
 @media (max-width: 476px) { 
 
     .container{
-        width: 300px;
+        width: 400px;
     }
     .container-to-do-list input{
-        width: 100px;
+        width: 300px;
+        font-size: x-small;
     }
+    .container-to-do-list{
+        width: 450px;
+        font-size: x-small;
+    }
+
 }
 
 @media (max-width: 390px) {
  
     .container{
-        width: 250px;
+        width: 350px;
     }
 
 }
@@ -32,7 +40,16 @@
 @media (max-width: 290px) {
   
     .container{
-        width: 200px;
+        width: 270px;
+    }
+
+    .container-to-do-list input{
+        width: 250px;
+        font-size: x-small;
+    }
+    .container-to-do-list{
+        width: 450px;
+        font-size: xx-small;
     }
 
 }
